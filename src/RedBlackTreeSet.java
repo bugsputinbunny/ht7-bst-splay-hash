@@ -7,7 +7,7 @@ import implementaciones.RedBlackSearchTree;
  *              de palabras existentes.
  * @author Oscar Castañeda, Carnet 11086
  * @since  15/10/2012
- * @version 0.5
+ * @version 1.0
  */
 
 public class RedBlackTreeSet implements WordSet{
@@ -45,12 +45,7 @@ public class RedBlackTreeSet implements WordSet{
         //Se revisa si la palabra existe
         if(theWordTree.contains(word)){
             //De ser así, se devuelve la misma palabra.
-            //Se hace esto por que no se cuentan con métodos para devolver el elemento sin eliminarlo en la implementación hallada.
-            //return word;
-            //Word toReturn = theWordTree.remove(word);
-            //theWordTree.add(toReturn);
-            Word toReturn = theWordTree.get(word);
-            return toReturn;
+            return theWordTree.get(word);
         }else{
             return null;
         }

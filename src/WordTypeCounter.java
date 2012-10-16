@@ -127,7 +127,6 @@ class WordTypeCounter {
 				System.out.println(adjectives + " adjetivos");
 				System.out.println(adverbs + " adverbios");
 				System.out.println(gerunds + " gerundios");
-				
 			}
 			else
 			{

@@ -13,21 +13,34 @@ class WordSetFactory {
 	//                         2 = implementado con Red black tree
 	//                         3 = implementado con Splay Tree
 	//                         4 = implementado con Hash Table
+        //                         5 = implementando con LinkedHashMap de JCF.
 	
 	public static WordSet generateSet(int tipo)
 	{
 	    if (tipo == 1)
 		    return new SimpleSet();
             else{
-                if (tipo == 2)
-                    return new RedBlackTreeSet();
-                else{
-                }
-            }
-		    // aqui se regresara el set empleando sus implementaciones:
+                // aqui se regresara el set empleando sus implementaciones:
 			// if tipo == 2 cree una instancia para un Wordset implementao con Red Black Tree
 			// if tipo == 3 cree una instancia para un Wordset implementado con Splay Tree
 			// if tipo == 4 cree una instancia para un Wordset impelementdo con Hash table
+                if (tipo == 2)
+                    return new RedBlackTreeSet();
+                else{
+                    if (tipo == 3){
+                        
+                    }else{
+                        if (tipo == 4){
+                            
+                        }else{
+                            if (tipo == 5){
+                                return new LinkedHashMapWordSet();
+                            }
+                        }
+                    }
+                }
+            }
+		    
 			
 			return null;
 	}
