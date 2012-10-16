@@ -28,10 +28,10 @@ class WordSetFactory {
                     return new RedBlackTreeSet();
                 else{
                     if (tipo == 3){
-                        
+                        return new SplayTreeSet();
                     }else{
                         if (tipo == 4){
-                            
+                            return new HashTableSet();
                         }else{
                             if (tipo == 5){
                                 return new LinkedHashMapWordSet();
