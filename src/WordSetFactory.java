@@ -24,6 +24,7 @@ class WordSetFactory {
 			// if tipo == 2 cree una instancia para un Wordset implementao con Red Black Tree
 			// if tipo == 3 cree una instancia para un Wordset implementado con Splay Tree
 			// if tipo == 4 cree una instancia para un Wordset impelementdo con Hash table
+                        // if tipo == 5 cree una instancia para un Wordset implementado con LinkedHashMap de JCF
                 if (tipo == 2)
                     return new RedBlackTreeSet();
                 else{

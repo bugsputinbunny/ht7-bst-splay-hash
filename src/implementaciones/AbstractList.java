@@ -1,3 +1,10 @@
+/**
+ * Tomado de las clases realizadas por el autor del libro "Java Structures",
+ * Duane A. Bailey, utilizado en el curso de Algoritmos y Estructura de Datos.
+ * Estas clases se encuentran disponibles en:
+ * http://dept.cs.williams.edu/JavaStructures/Software.html
+ */
+
 package implementaciones;
 import java.util.Iterator;
 /**

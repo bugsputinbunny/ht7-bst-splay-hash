@@ -1,3 +1,10 @@
+/**
+ * Tomado de las clases realizadas por el autor del libro "Java Structures",
+ * Duane A. Bailey, utilizado en el curso de Algoritmos y Estructura de Datos.
+ * Estas clases se encuentran disponibles en:
+ * http://dept.cs.williams.edu/JavaStructures/Software.html
+ */
+
 // This is a implementation of splay trees, in Java.
 // (c) 1996, 1997, 1998, 2001 duane a. bailey
 // (c) 1998, 2001 duane a. bailey
